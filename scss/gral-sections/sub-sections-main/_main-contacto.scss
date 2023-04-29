@@ -10,6 +10,7 @@
 
 .main__titulo {
     grid-area: titulo;
+    padding-bottom: 20px;
 }
 
 .referencias {
@@ -48,6 +49,10 @@
         color: $amarillo;
         text-decoration: underline;
         margin-bottom: 20px;
+    }
+    &__p{
+        font-family: $general;
+        color: $blanco;
     }
 }
 }

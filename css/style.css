@@ -112,7 +112,7 @@
       .header .nav__p::after {
         content: " 🍔"; }
       .header .nav__a {
-        font-size: 5vw;
+        font-size: 24px;
         color: #000000; } }
 
 .main--estilo2 {
@@ -503,7 +503,8 @@
   grid-template-rows: auto 757px;
   grid-template-areas: "titulo" "contenido"; }
   .main--estilo5 .main__titulo {
-    grid-area: titulo; }
+    grid-area: titulo;
+    padding-bottom: 20px; }
   .main--estilo5 .referencias {
     grid-area: contenido;
     display: grid;
@@ -532,6 +533,9 @@
       color: #FFBC00;
       text-decoration: underline;
       margin-bottom: 20px; }
+    .main--estilo5 .referencias__p {
+      font-family: "Mitr", sans-serif;
+      color: #FFFFFF; }
 
 @media (max-width: 414px) {
   .main--estilo5 {
@@ -606,7 +610,9 @@
   border-radius: 10px;
   margin-bottom: 20px;
   width: 230px;
-  border: solid #0c1a51 5px; }
+  border: solid #0c1a51 5px;
+  background-color: #131010;
+  margin-top: 10px; }
 
 .col-sm__h4--prop {
   background-color: #1a0a2a;
