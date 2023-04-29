@@ -1,0 +1,152 @@
+.header {
+    grid-area: header;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background: linear-gradient(319deg, #FFC107, #cec3b4);
+
+    &__img {
+        position: sticky;
+        top: 0px;
+        border-radius: 33%;
+        background-color: #ffbc00;
+
+        //ANIMACION IMG
+        animation-name: rotacion-espejo;
+        animation-iteration-count: infinite;
+        animation-duration: 20s;
+        animation-delay: 5s;
+    }
+
+    .nav {
+        position: sticky;
+        top: 270px;
+
+
+        &__ul {
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            overflow: hidden;
+            list-style-type: none;
+            padding-left: 0px;
+        }
+
+        &__li {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            transition: 0.25s;
+
+            &:hover {
+                background-color: rgb(211, 204, 175);
+                transform: scale(1.04);
+            }
+        }
+
+        &__a {
+            font-family: jumper;
+            font-size: 1.6vw;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            list-style-type: none;
+            text-decoration: none;
+            &:active{
+                color: $verde;
+            }
+        }
+
+        .nav__a--color {
+            color: $rojo
+        }
+
+        //ANIMACION NAV 
+        transform: translate(-400px);
+        animation-name: isquierda-a-derecha;
+        animation-iteration-count: 1;
+        animation-duration: 1s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+    }
+
+    .nav__p--prop {
+        margin-bottom: 0;
+    }
+
+}
+
+//ANIMACION NAV
+@keyframes isquierda-a-derecha {
+
+    100% {
+        transform: translate(0px);
+
+    }
+}
+
+
+
+
+.nav--prop {
+    display: block;
+}
+
+//ANIMACION IMG
+@keyframes rotacion-espejo {
+
+    1.25% {
+        transform: scaleX(-1)
+    }
+
+    2.5% {
+        transform: scaleX(1)
+    }
+
+}
+
+
+//MEDIA QUERY HEADER
+
+@media (max-width:414px) {
+    .header {
+        align-items: center;
+        height: 95vw;
+        justify-content: space-around;
+
+        &__img {
+            width: 40%;
+            position: static;
+        }
+
+        .nav {
+            width: 100%;
+            position: static;
+
+            &__ul {
+                width: 100%;
+                height: 200px;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+
+            &__p {
+
+                &::before {
+                    content: "👉🏻  ";
+                }
+                &::after {
+                    content: " 🍔";
+                }
+            }
+
+            &__a {
+                font-size: 5vw;
+                color: $negro;
+            }
+
+        }
+    }
+}

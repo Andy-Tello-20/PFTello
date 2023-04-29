@@ -1,0 +1,23 @@
+//VARIABLES
+@import "./utilities/colors";
+
+//RESETEO
+@import "./utilities/reset";
+
+
+//FUENTES
+@import "./utilities/fuentes";
+
+//SECCIONES
+@import "./gral-sections/contenedor";
+@import "./gral-sections/header";
+@import "./gral-sections/sub-sections-main/main-index";
+@import "./gral-sections/sub-sections-main/main-menu";
+@import "./gral-sections/sub-sections-main/main-tu-pedido";
+@import "./gral-sections/sub-sections-main/main-sugerencias";
+@import "./gral-sections/sub-sections-main/main-contacto";
+@import "./gral-sections/footer";
+
+//MODIFICADORES
+
+@import "./gral-sections/modificadores-Gral";

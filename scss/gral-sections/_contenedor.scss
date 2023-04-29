@@ -1,0 +1,29 @@
+//ESTRUCTURA GENERAL PARA TODAS LAS PAGINAS WEB
+.contenedor {
+  padding-top: 15px;
+  background: linear-gradient(360deg,#0c1a51, #a90f90 42%, #0c1a51);
+  padding-right: 15px;
+  padding-left: 15px;
+  display: grid;
+  grid-template-columns: 12vw repeat(6, 1fr);
+  grid-template-rows: 1fr auto;
+  gap: 15px;
+  grid-template-areas:
+    "header main main main main main main"
+    "footer footer footer footer footer footer footer";
+}
+
+
+//MEDIA QUERY
+
+@media (max-width:414px) {
+
+  /* contenedor general */
+  .contenedor {
+    display: grid;
+    grid-template-areas:
+      "header header header header header header header"
+      "main main main main main main main"
+      "footer footer footer footer footer footer footer";
+  }
+}
