@@ -9,6 +9,9 @@
 
     .caja1t {
         grid-area: titulo;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .caja2t {
@@ -212,7 +215,7 @@
     writing-mode: vertical-lr;
     text-orientation: upright;
     font-size: 5vw;
-    font-family: 'jumper';
+    font-family: $general;
     color: $amarillo;
     text-shadow: #5a0505 5px 5px;
 }

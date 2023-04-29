@@ -1,15 +1,9 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mitr:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0; }
-
-@font-face {
-  font-family: "handy";
-  src: url(../recursos/tipografias/Largelake_PERSONAL_USE_ONLY.otf); }
-
-@font-face {
-  font-family: "jumper";
-  src: url(../recursos/tipografias/JumperPERSONALUSEONLY-Bold.ttf); }
 
 .contenedor {
   padding-top: 15px;
@@ -70,7 +64,7 @@
         background-color: #d3ccaf;
         transform: scale(1.04); }
     .header .nav__a {
-      font-family: jumper;
+      font-family: "Mitr", sans-serif;
       font-size: 1.6vw;
       color: black;
       text-align: center;
@@ -162,7 +156,7 @@
     align-items: center;
     top: -30px; }
   .contenedor1__h2 {
-    font-family: jumper;
+    font-family: "Mitr", sans-serif;
     font-size: 2vw;
     color: #f7f7f7;
     text-align: center; }
@@ -255,7 +249,7 @@
     align-items: center;
     justify-content: center; }
     .main--estilo1 .caja3m__h2 {
-      font-family: handy;
+      font-family: "Carter One", cursive;
       color: #FFBC00;
       font-size: 7vw;
       text-align: center;
@@ -310,7 +304,10 @@
   grid-template-rows: auto 985px;
   grid-template-areas: "titulo" "principal-pedido "; }
   .main--estilo3 .caja1t {
-    grid-area: titulo; }
+    grid-area: titulo;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
   .main--estilo3 .caja2t {
     margin-left: 2vw;
     width: 100%;
@@ -423,7 +420,7 @@
   writing-mode: vertical-lr;
   text-orientation: upright;
   font-size: 5vw;
-  font-family: 'jumper';
+  font-family: "Mitr", sans-serif;
   color: #FFBC00;
   text-shadow: #5a0505 5px 5px; }
 
@@ -460,7 +457,7 @@
       grid-area: h2;
       text-align: center;
       color: #FFFFFF;
-      font-family: jumper; }
+      font-family: "Mitr", sans-serif; }
     .main--estilo4 .caja3s__form {
       grid-area: form; }
 
@@ -528,7 +525,7 @@
       border-radius: 5px;
       margin-left: 10px; }
     .main--estilo5 .referencias__h2 {
-      font-family: jumper;
+      font-family: "Mitr", sans-serif;
       color: #FFBC00;
       text-decoration: underline; }
     .main--estilo5 .referencias__h3 {
@@ -558,7 +555,7 @@
   margin-right: 10px; }
 
 .col-sm__h3 {
-  font-family: jumper;
+  font-family: "Mitr", sans-serif;
   text-decoration: underline;
   color: #FFFFFF;
   margin-top: 10px;
@@ -575,7 +572,7 @@
   background-color: #0d6efd;
   color: #FFFFFF;
   width: 80px;
-  font-family: jumper; }
+  font-family: "Mitr", sans-serif; }
 
 .col-sm__a {
   font-weight: bold;
@@ -636,10 +633,10 @@
 .caja1t__h1--prop,
 .caja1s__h1--prop,
 .main__h1--prop {
-  font-family: handy;
+  font-family: "Carter One", cursive;
   text-align: center;
   color: #FFBC00;
-  font-size: 12vw;
+  font-size: 11vw;
   margin-top: 15px;
   animation-name: sombra-opacidad;
   animation-iteration-count: 1;

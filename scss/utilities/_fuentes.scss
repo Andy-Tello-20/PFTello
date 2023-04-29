@@ -1,10 +1,5 @@
-@font-face {
-    font-family: "handy";
-    src: url(../recursos/tipografias/Largelake_PERSONAL_USE_ONLY.otf);
-  }
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+$titulo:'Carter One', cursive;
   
-  @font-face {
-    font-family: "jumper";
-    src: url(../recursos/tipografias/JumperPERSONALUSEONLY-Bold.ttf);
-  }
-  
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@500&display=swap');
+$general:'Mitr', sans-serif;
