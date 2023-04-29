@@ -2,8 +2,8 @@
 
 .nav__ul--padmag,
 .nav__p--padmag {
-    padding-left: 0;
-    margin-bottom: 0;
+  padding-left: 0;
+  margin-bottom: 0;
 }
 
 //Propiedades h1 
@@ -13,32 +13,32 @@
 .caja1t__h1--prop,
 .caja1s__h1--prop,
 .main__h1--prop {
-    font-family: $titulo;
-    text-align: center;
-    color: $amarillo;
-    font-size: 11vw;
-    margin-top: 15px;
+  font-family: $titulo;
+  text-align: center;
+  color: $amarillo;
+  font-size: 11vw;
+  margin-top: 15px;
 
-    //ANIMACIONES H1
-    animation-name: sombra-opacidad;
-    animation-iteration-count: 1;
-    animation-duration: 1s;
-    animation-delay: 1s;
-    animation-fill-mode: forwards;
-    opacity: 0%;
+  //ANIMACIONES H1
+  animation-name: sombra-opacidad;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  opacity: 0%;
 }
 
 @keyframes sombra-opacidad {
 
-    50% {
-      transform: scale(1.1);
-    }
-  
-    100% {
-      text-shadow: #5a0505 10px 10px;
-      opacity: 100%;
-      transform: scale(1);
-    }
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    text-shadow: #5a0505 10px 10px;
+    opacity: 100%;
+    transform: scale(1);
+  }
 }
 
 
@@ -52,7 +52,7 @@
 .col-sm__fecha--prop,
 .col-sm__comentario--prop,
 .col-sm-2__boton--prop {
-    width: 100%;
-    border-radius: 5px;
-    border: solid 3px $amarillo;
+  width: 100%;
+  border-radius: 5px;
+  border: solid 3px $amarillo;
 }

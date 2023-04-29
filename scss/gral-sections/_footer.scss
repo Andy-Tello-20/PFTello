@@ -2,45 +2,53 @@
 .footer {
     grid-area: footer;
     justify-content: center;
-    background: linear-gradient(90deg,#0c1a51, #a90f90 42%, #0c1a51);
+    background: linear-gradient(90deg, #0c1a51, #a90f90 42%, #0c1a51);
     border-radius: 10px;
 }
 
-.col-sm{
-    &__img{
+.col-sm {
+    &__img {
         margin-left: 10px;
         margin-right: 10px;
     }
-    &__h3{
+
+    &__h3 {
         font-family: $general;
         text-decoration: underline;
         color: $blanco;
         margin-top: 10px;
         font-size: 25px;
     }
-    &__p{
+
+    &__p {
         color: $blanco;
     }
-    &__h4{
+
+    &__h4 {
         color: $blanco;
         font-size: 20px;
     }
-    &__button{
+
+    &__button {
         background-color: $azul-claro;
         color: $blanco;
         width: 80px;
         font-family: $general;
     }
-    &__a{
+
+    &__a {
         font-weight: bold;
         font-size: 18px;
-        &:link{
+
+        &:link {
             color: $amarillo;
         }
-        &:visited{
+
+        &:visited {
             color: $pastel;
         }
-        &:active{
+
+        &:active {
             color: $amarillo;
         }
     }
@@ -58,7 +66,7 @@
     align-items: center;
     text-decoration: underline;
     margin: 0px;
-    padding-left:15px;
+    padding-left: 15px;
     padding-right: 15px;
 }
 
@@ -73,7 +81,7 @@
     border-radius: 10px;
     margin-bottom: 20px;
     width: 230px;
-    border:solid #0c1a51 5px;
+    border: solid #0c1a51 5px;
     background-color: #131010;
     margin-top: 10px;
 }
@@ -92,16 +100,18 @@
 
 @media (max-width:414px) {
 
-    .col-sm__h3--prop-link{
+    .col-sm__h3--prop-link {
         font-size: 18px;
 
     }
+
     .col-sm__h3--prop {
         margin-top: 40px;
         font-size: 18px;
-        
+
     }
-    .col-sm__h4--prop{
+
+    .col-sm__h4--prop {
         font-size: 16px;
     }
 }

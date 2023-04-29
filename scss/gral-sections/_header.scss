@@ -53,7 +53,8 @@
             text-align: center;
             list-style-type: none;
             text-decoration: none;
-            &:active{
+
+            &:active {
                 color: $verde;
             }
         }
@@ -137,6 +138,7 @@
                 &::before {
                     content: "👉🏻  ";
                 }
+
                 &::after {
                     content: " 🍔";
                 }

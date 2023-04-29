@@ -8,53 +8,54 @@
         "contenido";
 
 
-.main__titulo {
-    grid-area: titulo;
-    padding-bottom: 20px;
-}
-
-.referencias {
-    grid-area: contenido;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100%;
-    grid-template-areas:
-        "iframe direccion";
-
-    &__mapa {
-        grid-area: iframe;
-        width: 100%;
-        height: 100%;
-        border-radius: 5px;
+    .main__titulo {
+        grid-area: titulo;
+        padding-bottom: 20px;
     }
 
-    &__visitanos {
-        grid-area: direccion;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        border: solid 2px $amarillo;
-        border-radius: 5px;
-        margin-left: 10px;
-    }
+    .referencias {
+        grid-area: contenido;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100%;
+        grid-template-areas:
+            "iframe direccion";
 
-    &__h2 {
-        font-family: $general;
-        color: $amarillo;
-        text-decoration: underline;
-    }
+        &__mapa {
+            grid-area: iframe;
+            width: 100%;
+            height: 100%;
+            border-radius: 5px;
+        }
 
-    &__h3 {
-        color: $amarillo;
-        text-decoration: underline;
-        margin-bottom: 20px;
+        &__visitanos {
+            grid-area: direccion;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            border: solid 2px $amarillo;
+            border-radius: 5px;
+            margin-left: 10px;
+        }
+
+        &__h2 {
+            font-family: $general;
+            color: $amarillo;
+            text-decoration: underline;
+        }
+
+        &__h3 {
+            color: $amarillo;
+            text-decoration: underline;
+            margin-bottom: 20px;
+        }
+
+        &__p {
+            font-family: $general;
+            color: $blanco;
+        }
     }
-    &__p{
-        font-family: $general;
-        color: $blanco;
-    }
-}
 }
 
 
