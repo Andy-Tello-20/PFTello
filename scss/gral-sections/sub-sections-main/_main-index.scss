@@ -4,7 +4,7 @@
   grid-area: main;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 520px;
+  grid-template-rows: 100vh;
   grid-template-areas:
     "titulo"
 
@@ -169,6 +169,8 @@
       font-size: 5vw;
     }
   }
-
+  .main--estilo2 {
+    grid-template-rows:520px ;
+  }
 
 }
